@@ -16,7 +16,7 @@ function App() {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger">About</a></li></Link>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li></Link>
                     <Link activeClass="active" to="experience" spy={true} smooth={true} offset={-70} duration={500}>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li></Link>
                     <Link activeClass="active" to="education" spy={true} smooth={true} offset={-70} duration={500}>
@@ -33,22 +33,22 @@ function App() {
         
         <div class="container-fluid p-0">
             
-            <section class="resume-section" id="about">
+            <section class="resume-section-first" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
                         Shree
                         <span class="text-primary">Samavedhi</span>
                     </h1>
-                    <div class="subheading mb-5">
+                    <div class="subheading">
                         3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
                         <a href="mailto:name@email.com">shreesamavedhi114@gmail.com</a>
                     </div>
-                    <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                    <p class="lead">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
                     <div class="social-icons">
-                        <a class="social-icon" href="#"><i class="fa fa-linkedin"></i></a>
-                        <a class="social-icon" href="#"><i class="fa fa-github"></i></a>
-                        <a class="social-icon" href="#"><i class="fa fa-twitter"></i></a>
-                        <a class="social-icon" href="#"><i class="fa fa-facebook-f"></i></a>
+                        <a class="social-icon" href="/#"><i class="fa fa-linkedin"></i></a>
+                        <a class="social-icon" href="/#"><i class="fa fa-github"></i></a>
+                        <a class="social-icon" href="/#"><i class="fa fa-twitter"></i></a>
+                        <a class="social-icon" href="/#"><i class="fa fa-facebook-f"></i></a>
                     </div>
                 </div>
             </section>
@@ -57,29 +57,29 @@ function App() {
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Senior Web Developer</h3>
                             <div class="subheading mb-3">Intelitec Solutions</div>
                             <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
+                        <div class="flex-shrink-0"><span class="text-second">March 2013 - Present</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Web Developer</h3>
                             <div class="subheading mb-3">Intelitec Solutions</div>
                             <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
+                        <div class="flex-shrink-0"><span class="text-second">December 2011 - March 2013</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Junior Web Designer</h3>
                             <div class="subheading mb-3">Shout! Media Productions</div>
                             <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
+                        <div class="flex-shrink-0"><span class="text-second">July 2010 - December 2011</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
@@ -87,7 +87,7 @@ function App() {
                             <div class="subheading mb-3">Shout! Media Productions</div>
                             <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
+                        <div class="flex-shrink-0"><span class="text-second">September 2008 - June 2010</span></div>
                     </div>
                 </div>
             </section>
@@ -96,14 +96,14 @@ function App() {
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">University of Colorado Boulder</h3>
                             <div class="subheading mb-3">Bachelor of Science</div>
                             <div>Computer Science - Web Development Track</div>
                             <p>GPA: 3.23</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
+                        <div class="flex-shrink-0"><span class="text-second">August 2006 - May 2010</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
@@ -111,7 +111,7 @@ function App() {
                             <div class="subheading mb-3">Technology Magnet Program</div>
                             <p>GPA: 3.56</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
+                        <div class="flex-shrink-0"><span class="text-second">August 2002 - May 2006</span></div>
                     </div>
                 </div>
             </section>

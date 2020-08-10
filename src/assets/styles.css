@@ -13,6 +13,9 @@
 
 
 :root {
+  --first: #3BA8C4;
+  --second: #3B63C4;
+  --third: #3BC49C;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -161,12 +164,12 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #3B63C4 ;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  color: #3ba8c4;
   text-decoration: underline;
 }
 
@@ -2474,8 +2477,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #bd5d38;
-  border-color: #bd5d38;
+  background-color: #3BA8C4;
+  border-color: #3BA8C4;
 }
 .btn-primary:hover {
   color: #fff;
@@ -2490,8 +2493,8 @@ fieldset:disabled a.btn {
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #bd5d38;
-  border-color: #bd5d38;
+  background-color: #3BA8C4;
+  border-color: #3BA8C4;
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
@@ -3959,7 +3962,7 @@ input[type=button].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #bd5d38;
+  background-color: #3BA8C4;
 }
 
 .nav-fill .nav-item {
@@ -6100,7 +6103,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #3B63C4 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -7631,6 +7634,10 @@ button.bg-dark:focus {
 .mr-5,
 .mx-5 {
   margin-right: 3rem !important;
+}
+
+.mb-5 {
+  color: #3BA8C4;
 }
 
 .mb-5,
@@ -9801,8 +9808,12 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
+.text-second {
+  color: #3B63C4 !important;
+}
+
 .text-primary {
-  color: #bd5d38 !important;
+  color: #3BA8C4 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10046,7 +10057,7 @@ p.lead {
 
 }
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color: #3B63C4;
 }
 
 @media (min-width: 992px) {
@@ -10104,7 +10115,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #3BA8C4;
 }
 
 .dev-icons {
@@ -10113,7 +10124,7 @@ p.lead {
 
 section.resume-section {
   display: flex;
-  align-items: center;
+  align-items: top;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 5rem;
@@ -10131,6 +10142,33 @@ section.resume-section .resume-section-content {
 }
 @media (min-width: 992px) {
   section.resume-section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+section.resume-section-first {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  max-width: 75rem;
+}
+section.resume-section-first {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  section.resume-section-first {
+    min-height: 100vh;
+  }
+}
+@media (min-width: 992px) {
+  section.resume-section-first {
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 5rem;
