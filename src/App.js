@@ -2,10 +2,13 @@ import React from 'react';
 import './App.css';
 import profile from './assets/profile.jpg'
 import { Link } from "react-scroll";
+import { FaReact } from 'react-icons/fa';
+import { Fragment } from 'react';
 
 
 function App() {
   return (
+      <Fragment>
     <div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -122,18 +125,18 @@ function App() {
                     <h2 class="mb-5">Skills</h2>
                     <div class="subheading mb-3">Programming Languages & Tools</div>
                     <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fa fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fa fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fa fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fa fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fa fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fa fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fa fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fa fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fa fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fa fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fa fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fa fa-npm"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-angular"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-sass"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-less"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-wordpress"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-gulp"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-grunt"></i></li>
+                        <li class="list-inline-item"><FaReact /></li>
                     </ul>
                     <div class="subheading mb-3">Workflow</div>
                     <ul class="fa-ul mb-0">
@@ -214,7 +217,7 @@ function App() {
             </section>
         </div>
         </div>
-        
+        </Fragment>
   );
 }
 

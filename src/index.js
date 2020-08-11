@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './assets/styles.css';
+import 'react-icons/fa';
 
 ReactDOM.render(
   <React.StrictMode>
