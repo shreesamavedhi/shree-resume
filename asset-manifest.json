@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/shree-resume/static/css/main.f169819d.chunk.css",
+    "main.js": "/shree-resume/static/js/main.2c33b480.chunk.js",
+    "main.js.map": "/shree-resume/static/js/main.2c33b480.chunk.js.map",
+    "runtime-main.js": "/shree-resume/static/js/runtime-main.6f57e6f3.js",
+    "runtime-main.js.map": "/shree-resume/static/js/runtime-main.6f57e6f3.js.map",
+    "static/js/2.ba5513a8.chunk.js": "/shree-resume/static/js/2.ba5513a8.chunk.js",
+    "static/js/2.ba5513a8.chunk.js.map": "/shree-resume/static/js/2.ba5513a8.chunk.js.map",
+    "index.html": "/shree-resume/index.html",
+    "precache-manifest.0fc4c8f3c4936d4a5463be65624af744.js": "/shree-resume/precache-manifest.0fc4c8f3c4936d4a5463be65624af744.js",
+    "service-worker.js": "/shree-resume/service-worker.js",
+    "static/css/main.f169819d.chunk.css.map": "/shree-resume/static/css/main.f169819d.chunk.css.map",
+    "static/js/2.ba5513a8.chunk.js.LICENSE.txt": "/shree-resume/static/js/2.ba5513a8.chunk.js.LICENSE.txt",
+    "static/media/profile.jpg": "/shree-resume/static/media/profile.b4899839.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6f57e6f3.js",
+    "static/js/2.ba5513a8.chunk.js",
+    "static/css/main.f169819d.chunk.css",
+    "static/js/main.2c33b480.chunk.js"
+  ]
+}
