@@ -44,7 +44,11 @@ function App() {
                     <h1 class="mb-0">
                         Shree
                         <span class="text-primary">Samavedhi</span>
+                        
                     </h1>
+                    <div class="flex-shrink-0 d-flex flex-column flex-md-row justify-content-between">
+                         <span class="text-second text-right">(she/her/hers)</span>
+                    </div>
                     <div class="subheading">
                         302 East John Street, Apt 0802 · Champaign, IL 61820 · (314) 757-3678 ·
                         <a href="mailto:name@email.com">shreesamavedhi114@gmail.com</a>
@@ -128,6 +132,7 @@ function App() {
                             <p>GPA: 3.73/4.00</p>
                             <div>Relevant Coursework:</div>
                             <p>Intro to Electronics, Intro to Computing, Discrete Structure, Differential Equations Plus</p>
+                            <p class="mb-4">Analog Signal Processing, Computer Systems & Programming, Quantum/Thermal Physics</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-second">August 2019 - May 2023</span></div>
                     </div>
@@ -136,7 +141,7 @@ function App() {
                             <h3 class="mb-0">Lafayette High School</h3>
                             <div class="subheading mb-3">Rockwood School District</div>
                             <div>Senior Class Secretary</div>
-                            <p>GPA: 4.58/4.00</p>
+                            <p class="mb-4">GPA: 4.58/4.00</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-second">August 2015 - May 2019</span></div>
                     </div>
@@ -168,23 +173,23 @@ function App() {
                         <li class="list-inline-item"><DiJira /></li>
                         <li class="list-inline-item"><FaConfluence /></li>
                     </ul>
-                    <div class="subheading mb-3">Workflow</div>
+                    <div class="subheading mb-3">Main Skills</div>
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fa fa-check"></i></span>
-                            Mobile-First, Responsive Design
+                            Classes Taken: LC-3, Linux, Git
                         </li>
                         <li>
                             <span class="fa-li"><i class="fa fa-check"></i></span>
-                            Cross Browser Testing & Debugging
+                            Self Taught: C/C++/C#, JS/CSS, Python
                         </li>
                         <li>
                             <span class="fa-li"><i class="fa fa-check"></i></span>
-                            Cross Functional Teams
+                            Self-Motivated, Creative Mindset
                         </li>
                         <li>
                             <span class="fa-li"><i class="fa fa-check"></i></span>
-                            Agile Development & Scrum
+                            Agile & Scrum Workflow
                         </li>
                     </ul>
                 </div>
@@ -194,6 +199,21 @@ function App() {
             <section class="resume-section" id="projects">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Projects</h2>
+                    <p class="font-italic font-weight-bold">Documenation for all these projects can be viewed on my <a href="https://www.linkedin.com/in/shree-samavedhi-bb784619a/">Likendin page</a>.</p>
+                <h3 class="mb-2">Battleships Game</h3>
+                <p class="mb-4">During the Pulse 2020 Hackathon (hosted by UIUC), our team created a purely hardware version of the game Battleships, with a bit of a twist.
+                    Our proof of concept model showed how players could shine lasers to "hit" locations on the board, and how the light would turn a different color if a battleship was present at that location. 
+                    View our team's Linkedin post about it <a href="https://www.linkedin.com/posts/shree-samavedhi-bb784619a_hackathon-engineering-electricalengineering-activity-6633265712267882496-vAvP">here</a>.
+                </p>
+                <h3 class="mb-2">Tournament Tracker</h3>
+                <p class="mb-4">In my spare time, I followed the <a href="https://www.youtube.com/watch?v=wfWxdh-_k_4">Tim Corey C# Course</a>, in which I learned to create a working tournament tracker application. 
+                I got great experience working with Visual Studio, SQL database, and Winforms, as well as excellent debugging sills. </p>
+                <h3 class="mb-2">Motor Controller</h3>
+                <p class="mb-4">As part of an internship hiring challenge, I created the plan, schematics, and the bill of materials for a basic motor controller project through the use of Atmel Studio.</p>
+                <h3 class="mb-2">Enhanced Unsharp Mask</h3>
+                <p class="mb-4">During my time as a research assistant in the STARS program, I worked to write a research paper on enhancing a popular image filtering algorithm, known as Unsharp Mask.
+                    This algorithm had a known problem when it came to creating a "halo effect" around the subjects it sharpened. Through extensive research, I was able to code a variation on this algorithm in C++, 
+                    displaying my results through several standard image processing test cases. </p>
                 </div>
             </section>
             <hr class="m-0" />
@@ -201,8 +221,17 @@ function App() {
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                    <div class="subheading mb-3">Musician</div>
+                    <p class="mb-4">I'm an avid musician/composer <a class="text-second font-italic">(absolutely love music!)</a>. I'm primarily a violinist, but have also dabbled with guitar, ukelele, and voice. 
+                        During the Fall 2019 semester, I was part of the Philharmonia orchestra as a violinist.
+                        In the past, I've also been apart of a non-professional jazz band with a group of friends. 
+                        Music composition is still something I enjoy working on in my free time, from classical generes to modern hip-hop beats.</p>
+                    <div class="subheading mb-3">Biking/Skateboarding</div>
+                    <p class="mb-4">Non-competitve biking has been something I've enjoyed doing since I've been a child. However, as a more recent interest of mine, I've been learning how to skateboard. 
+                    I'm planning on documenting this process on my Youtube channel <a class="text-second font-italic">(as of now, no videos are up- I'm trying to get something uploaded soon!)</a>. </p>
+                    <div class="subheading mb-3">Conversationalist</div>
+                    <p class="mb-4">My favorite pasttime has to be striking up interesting conversations with friends about ethics, morals, philosphy, state of the world, politics, you name it!
+                    I find conversations to be the sparker of interest and hones creative perspectives- I find it essential to every aspect of life.</p>
                 </div>
             </section>
             <hr class="m-0" />
@@ -252,7 +281,9 @@ function App() {
             </section>
         </div>
         <footer>
-            <a href="https://icons8.com/icon/">C/C++/C# icons by Icons8</a>
+            <p>Credits:
+            <a href="https://icons8.com/icon/"> C/C++/C# icons by Icons8</a>
+            </p>
         </footer>
         </div>
         </Fragment>
